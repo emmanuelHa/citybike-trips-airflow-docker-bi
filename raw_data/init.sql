@@ -27,22 +27,22 @@ FROM '/docker-entrypoint-initdb.d/201602-citibike-tripdata_1.csv'
   DELIMITER ','
   CSV HEADER;  
 
-COPY citibike_trips
-FROM '/docker-entrypoint-initdb.d/201603-citibike-tripdata_01.csv'
-  DELIMITER ','
-  CSV HEADER;  
-
-COPY citibike_trips
-FROM '/docker-entrypoint-initdb.d/201603-citibike-tripdata_02.csv'
-  DELIMITER ','
-  CSV HEADER; 
-
-  COPY citibike_trips
-FROM '/docker-entrypoint-initdb.d/201604-citibike-tripdata_01.csv'
-  DELIMITER ','
-  CSV HEADER;  
-
-COPY citibike_trips
-FROM '/docker-entrypoint-initdb.d/201604-citibike-tripdata_02.csv'
-  DELIMITER ','
-  CSV HEADER;    
+--COPY citibike_trips
+--FROM '/docker-entrypoint-initdb.d/201603-citibike-tripdata_01.csv'
+--  DELIMITER ','
+--  CSV HEADER;
+--
+--COPY citibike_trips
+--FROM '/docker-entrypoint-initdb.d/201603-citibike-tripdata_02.csv'
+--  DELIMITER ','
+--  CSV HEADER;
+--
+--  COPY citibike_trips
+--FROM '/docker-entrypoint-initdb.d/201604-citibike-tripdata_01.csv'
+--  DELIMITER ','
+--  CSV HEADER;
+--
+--COPY citibike_trips
+--FROM '/docker-entrypoint-initdb.d/201604-citibike-tripdata_02.csv'
+--  DELIMITER ','
+--  CSV HEADER;

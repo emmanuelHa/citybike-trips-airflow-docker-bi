@@ -126,7 +126,7 @@ There would need to:
 - add a dedicated docker network instead of the default one
 - add a memory resources section to containers
 - some ports are hard coded => use .env
-- Metabase runs with an in memory database which is for demonstration sake only
-- a mecanism to add more csv files could be added
+- Metabase runs with an in memory database which is for demonstration's sake only
+- a mechanism to add more csv files could be added
 - metabase Dashboard could be automatically created 
 - add python content into requirements.txt file
