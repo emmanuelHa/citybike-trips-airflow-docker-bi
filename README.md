@@ -100,9 +100,10 @@ All containers should be up after **few minutes** depending on your network and 
 ### 5) DASHBOARD NEW METRICS:  
 - Go to metabase local address to see metrics and create a new one (5)
     - Go to http://localhost:3000/
-    - You are going to setup your database connection, answering few questions
-    - For step 4 "Ajoutez vos données", pick up PostgreSQL
-        - Then click on the "connecter la base de données" button
+    - You are going to set up your database connection, answering few questions
+    - For step 4 "Ajoutez vos données"   
+        - pick up PostgreSQL   
+        - Then click on the "connecter la base de données" button   
 Then you can see the metrics, and add more...
 
 <img src="./docs/Dashboard_report_metrics.png" alt="DASHBOARD METRICS" width="50%"/> 
