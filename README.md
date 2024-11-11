@@ -117,16 +117,17 @@ Then you can see the metrics, and add more...
 
 ## **LINKS**
 
-https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html   
 https://www.metabase.com/
 
 ## **Remarks**
 This project is absolutely not prod ready.
 There would need to:
+- some csv files are split into 10000 lines (because of github file size limitation) so they are not corresponding to real figures
+- a mechanism to add more csv files could be added
 - add a dedicated docker network instead of the default one
 - add a memory resources section to containers
 - some ports are hard coded => use .env
 - Metabase runs with an in memory database which is for demonstration's sake only
-- a mechanism to add more csv files could be added
 - metabase Dashboard could be automatically created 
 - add python content into requirements.txt file
