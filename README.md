@@ -31,6 +31,7 @@ What's going on undercover when docker starts ?
 3) An Airflow Server is started
 4) An sql web client is started
 5) Metabase client is started to display metrics of a database
+6) Metrics are **automatically** created from existing columns of the database and table you picked up
 
 ## **INSTRUCTIONS**
 ### 1) Launch the containers:
